@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 
 using namespace std;
 
@@ -16,46 +16,46 @@ int main()
 	for (int i = 0; i < n; i++) cout << arr[i];
 	cout << "\n";
 
-	for (int i = 0; i < n - 1; i++) arr[i] = arr[i + 1];      // Ñäâèã âëåâî íà 1
+	for (int i = 0; i < n - 1; i++) arr[i] = arr[i + 1];      // Ð¡Ð´Ð²Ð¸Ð³ Ð²Ð»ÐµÐ²Ð¾ Ð½Ð° 1
 
 	arr[n - 1] = time1;
 
-	for (int i = 0; i < n; i++) cout << arr[i];                 //Âûâîä 
+	for (int i = 0; i < n; i++) cout << arr[i];                 //Ð’Ñ‹Ð²Ð¾Ð´ 
 	cout << "\n";
 
-	for (int i = 0; i < n - 1; i++) arr[i] = arr[i + 1];      // Ñäâèã âëåâî íà 1
+	for (int i = 0; i < n - 1; i++) arr[i] = arr[i + 1];      // Ð¡Ð´Ð²Ð¸Ð³ Ð²Ð»ÐµÐ²Ð¾ Ð½Ð° 1
 
 	arr[n - 1] = time2;
 
-	for (int i = 0; i < n; i++) cout << arr[i];                  //Âûâîä 
+	for (int i = 0; i < n; i++) cout << arr[i];                  //Ð’Ñ‹Ð²Ð¾Ð´ 
 	cout << "\n";
 
-	for (int i = 0; i < n - 1; i++) arr[i] = arr[i + 1];      // Ñäâèã âëåâî íà 1
+	for (int i = 0; i < n - 1; i++) arr[i] = arr[i + 1];      // Ð¡Ð´Ð²Ð¸Ð³ Ð²Ð»ÐµÐ²Ð¾ Ð½Ð° 1
 
 	arr[n - 1] = time3;
 
-	for (int i = 0; i < n; i++) cout << arr[i];                  //Âûâîä 
+	for (int i = 0; i < n; i++) cout << arr[i];                  //Ð’Ñ‹Ð²Ð¾Ð´ 
 	cout << "\n";
 
-	for (int i = n-1; i > 0; i--) arr[i] = arr[ i - 1 ];     // Ñäâèã âëåâî íà 1
+	for (int i = n-1; i > 0; i--) arr[i] = arr[ i - 1 ];     // Ð¡Ð´Ð²Ð¸Ð³ Ð²Ð»ÐµÐ²Ð¾ Ð½Ð° 1
 
 	arr[0] = time3;
 
-	for (int i = 0; i < n ; i++) cout<<arr[i];                   //Âûâîä 
+	for (int i = 0; i < n ; i++) cout<<arr[i];                   //Ð’Ñ‹Ð²Ð¾Ð´ 
 	cout << "\n";
 
-	for (int i = n - 1; i > 0; i--) arr[i] = arr[i - 1];     // Ñäâèã âïðàâî íà 1
+	for (int i = n - 1; i > 0; i--) arr[i] = arr[i - 1];     // Ð¡Ð´Ð²Ð¸Ð³ Ð²Ð¿Ñ€Ð°Ð²Ð¾ Ð½Ð° 1
 
 	arr[0] = time2;
 
-	for (int i = 0; i < n; i++) cout << arr[i];                  //Âûâîä 
+	for (int i = 0; i < n; i++) cout << arr[i];                  //Ð’Ñ‹Ð²Ð¾Ð´ 
 	cout << "\n";
 
-	for (int i = n - 1; i > 0; i--) arr[i] = arr[i - 1];     // Ñäâèã âïðàâî íà 1
+	for (int i = n - 1; i > 0; i--) arr[i] = arr[i - 1];     // Ð¡Ð´Ð²Ð¸Ð³ Ð²Ð¿Ñ€Ð°Ð²Ð¾ Ð½Ð° 1
 
 	arr[0] = time1;
 	 
-	for (int i = 0; i < n; i++) cout << arr[i];                  //Âûâîä 
+	for (int i = 0; i < n; i++) cout << arr[i];                  //Ð’Ñ‹Ð²Ð¾Ð´ 
 	cout << "\n";
 
 
@@ -80,30 +80,7 @@ int main()
 
 
 
-	/*for (int i = 0; i < n; i++) cout << arr[i];
-
-	for (int i = 0; i < n - 1; i++) arr[i] = arr[i + 1];
-	cout << "\n";
-
-	arr[n - 1] = time1;
-
-	for (int i = 0; i < n; i++) cout << arr[i];
-	cout << "\n";
-
-	for (int i = 0; i < n - 1; i++) arr[i] = arr[i + 1];
-
-	arr[n - 1] = time2;
-
-	for (int i = 0; i < n; i++) cout << arr[i];
-	cout << "\n";
-
-	for (int i = 0; i < n - 1; i++) arr[i] = arr[i + 1];
-
-	arr[n - 1] = time3;
-
-	for (int i = 0; i < n; i++) cout << arr[i];
-	cout << "\n";*/
-
+	
 
 
 	
