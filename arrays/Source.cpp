@@ -1,4 +1,4 @@
-#include <iostream>
+п»ї#include <iostream>
 
 using namespace std;
 
@@ -11,37 +11,37 @@ int main()
 	int arr[n];
 	int sum = 0, averege, sum1 = 0, min, max;
 
-	cout << "Введите элементы: ";
-	for (int i = 0; i < n; i++) cin >> arr[i];            // ввод данных
+	cout << "Р’РІРµРґРёС‚Рµ СЌР»РµРјРµРЅС‚С‹: ";
+	for (int i = 0; i < n; i++) cin >> arr[i];            // РІРІРѕРґ РґР°РЅРЅС‹С…
 
-	for (int i = 0; i < n; i++) cout << arr[i] << "\t";   // вывод данных
+	for (int i = 0; i < n; i++) cout << arr[i] << "\t";   // РІС‹РІРѕРґ РґР°РЅРЅС‹С…
 
 	cout << endl;
 
-	for (int i = 0; i < n; i++) sum =sum + arr[i];       // сумма элементов массива
+	for (int i = 0; i < n; i++) sum =sum + arr[i];       // СЃСѓРјРјР° СЌР»РµРјРµРЅС‚РѕРІ РјР°СЃСЃРёРІР°
 		
-	cout << "Сумма:" << sum << endl;
+	cout << "РЎСѓРјРјР°:" << sum << endl;
 
-	for (int i = 0; i < n; i++) sum1 +=arr[i];          // среднее арифметическое
+	for (int i = 0; i < n; i++) sum1 +=arr[i];          // СЃСЂРµРґРЅРµРµ Р°СЂРёС„РјРµС‚РёС‡РµСЃРєРѕРµ
 
 	averege = sum1 / n;
 	
-	cout << "Среднее арифметическое равно:" << averege << endl;
+	cout << "РЎСЂРµРґРЅРµРµ Р°СЂРёС„РјРµС‚РёС‡РµСЃРєРѕРµ СЂР°РІРЅРѕ:" << averege << endl;
 	
-	min = arr[0];                                       // минимальное
+	min = arr[0];                                       // РјРёРЅРёРјР°Р»СЊРЅРѕРµ
 	for (int i = 0; i < n; i++)                    
 	{
 		if (min < arr[i]);
 		else min = arr[i];
 	}
-	cout << "Минимальное число:"<<min << endl;
+	cout << "РњРёРЅРёРјР°Р»СЊРЅРѕРµ С‡РёСЃР»Рѕ:"<<min << endl;
 
 
-	max = arr[0];                                       // максимальное
+	max = arr[0];                                       // РјР°РєСЃРёРјР°Р»СЊРЅРѕРµ
 	for (int i = 0; i < n; i++)
 	{
 		if (max > arr[i]);
 		else max = arr[i];
 	}
-	cout << "Максимальное число:" << max << endl;
+	cout << "РњР°РєСЃРёРјР°Р»СЊРЅРѕРµ С‡РёСЃР»Рѕ:" << max << endl;
 }
